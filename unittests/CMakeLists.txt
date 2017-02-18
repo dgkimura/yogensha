@@ -4,6 +4,7 @@ project(yogensha.unittests)
 set(SOURCES
     assert_unittest.cpp
     integral_constant_unittest.cpp
+    list_unittest.cpp
 )
 
 add_library(all_unittests ${SOURCES})
